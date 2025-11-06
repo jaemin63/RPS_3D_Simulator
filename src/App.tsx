@@ -5,7 +5,7 @@ export default function App() {
   return (
     <GLTFViewer
       src="/models/Multi_RPS.gltf"
-      background={0xe8e8e8}  // 연한 회색 배경
+      background={0x111214}  // 어두운 배경 (모델 가시성 테스트)
     />
   );
 }
